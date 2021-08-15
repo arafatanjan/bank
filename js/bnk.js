@@ -5,7 +5,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     // usser pssword
     const psswordField = document.getElementById('user-pssword');
     const userPssword = psswordField.value;
-
+    // check emil ddress
     if (userEmil == 'wwwww@gmil.com' && userPssword == 'secret') {
         window.location.href = 'bnking.html';
     }
