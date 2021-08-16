@@ -6,7 +6,7 @@ document.getElementById('login-submit').addEventListener('click', function () {
     const psswordField = document.getElementById('user-pssword');
     const userPssword = psswordField.value;
     // check emil ddress
-    if (userEmil == 'wwwww@gmil.com' && userPssword == 'secret') {
+    if (userEmil == 'wwwww@gmail.com' && userPssword == 'secret') {
         window.location.href = 'bnking.html';
     }
 
@@ -14,6 +14,3 @@ document.getElementById('login-submit').addEventListener('click', function () {
 
 //hndle deposit button event
 
-document.getElementById(deposit - button).addEventListener('click', function log() {
-    console.log('deposit button clicked');
-})
