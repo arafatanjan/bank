@@ -10,4 +10,10 @@ document.getElementById('login-submit').addEventListener('click', function () {
         window.location.href = 'bnking.html';
     }
 
+});
+
+//hndle deposit button event
+
+document.getElementById(deposit - button).addEventListener('click', function log() {
+    console.log('deposit button clicked');
 })
